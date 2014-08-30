@@ -1,7 +1,17 @@
-body { padding-top: 100px; }
-footer { margin-top: 100px; }
-table, td, th { vertical-align: middle; border: none; }
-th { border-bottom: 1px solid #DDD; }
+body { 
+  padding-top: 100px;
+  background-color: #D8E6E6;
+  font-family: Georgia;
+   }
+footer { 
+  margin-top: 100px; 
+}
+table, td, th { 
+  vertical-align: middle; border: none; 
+}
+th { 
+  border-bottom: 1px solid #DDD; 
+}
 
 .row { 
     position: relative;
