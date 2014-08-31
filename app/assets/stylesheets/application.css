@@ -1,5 +1,5 @@
 body { 
-  padding-top: 100px;
+  padding-top: 50px;
   background-color: #D8E6E6;
   font-family: Georgia;
    }
@@ -15,5 +15,13 @@ th {
 
 .row { 
     position: relative;
-    right: -30px;
+    right: -50px;
+}
+.new_idea,.edit_idea {
+   position: relative;
+    right: -20px;
+}
+
+.index_title{
+  padding-top: 50px;
 }

@@ -3,8 +3,10 @@ Railsgirls::Application.routes.draw do
   
 
   get "pages/info"
-  resources :ideas
-  resources :comments
+  resources :ideas do
+    resources :comments
+  end
+  
   
   root :to => redirect('/ideas')
 end
